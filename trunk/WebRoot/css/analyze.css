@@ -1,0 +1,259 @@
+body {
+	PADDING-RIGHT: 6px;
+	PADDING-LEFT: 6px; 
+	BACKGROUND: #ffffff; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px; 
+	FONT: 13px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	COLOR: #000000; 
+	PADDING-TOP: 6px
+}
+td{ 
+FONT: 12px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+}
+.analyzetbl {
+border-collapse: collapse;
+border-top:1px double #A5B2BD;
+border-left:1px double #A5B2BD;
+ 
+border:0;
+cellspacing:0;
+cellpadding:0;
+}
+.analyzetbl td {
+	word-break:break-all;
+	border-collapse:collapse;
+	border-top: 1px double #A5B2BD;
+	border-right: 1px groove #A5B2BD;
+	border-bottom: 1px groove #A5B2BD;
+	border-left: 1px double #A5B2BD;
+	height:24px
+}
+.analyzetbl th {
+	word-break:break-all;
+	background-color:#BCD2EE;
+	border-collapse:collapse;
+	border-top: 1px double #A5B2BD;
+	border-right: 1px groove #A5B2BD;
+	border-bottom: 1px groove #A5B2BD;
+	border-left: 1px double #A5B2BD;
+	height:24px;
+	text-align: center;
+}
+.analyzedata td {
+	word-break:break-all;
+	border-collapse:collapse;
+	border-top: 1px double #A5B2BD;
+	border-right: 1px groove #A5B2BD;
+	border-bottom: 1px groove #A5B2BD;
+	border-left: 1px double #A5B2BD;
+	height:24px;
+	text-align:center;
+}
+.cmformtable {
+border-collapse: collapse;
+border-top:1px double #A5B2BD;
+border-left:1px double #A5B2BD;
+}
+.cmformtable td {
+	word-break:break-all;
+	border-collapse:collapse;
+	border-top: 1px double #A5B2BD;
+	border-right: 1px groove #A5B2BD;
+	border-bottom: 1px groove #A5B2BD;
+	border-left: 1px double #A5B2BD;
+	height:24px
+}
+.cmsrchtitle {
+	font-family: "黑体";
+	font-size: 19px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #000000;
+}
+
+.pagetop {
+	font-family: "Times New Roman", "Times", "serif";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+
+/**
+input /** input的风格控制，消除系统默认的边框，从而保持统一的Delphi风格。 */
+{
+     font-family: SimSun;
+     font-size: 12px;
+     border-right: #c4c4c4 1px none;
+     border-top: #999999 1px none;
+     border-left: #999999 1px none;
+     border-bottom: #c4c4c4 1px none;
+     
+     padding-left: 2px;
+	 padding-right:2px;
+     padding-top: 3px;
+	 padding-bottom:2px;
+	 height:24px;
+	 background-color:#EBEBEB;
+}
+select /** input的风格控制，消除系统默认的边框，从而保持统一的Delphi风格。 */
+{
+     font-family: SimSun;
+     font-size: 12px;
+     border-right: #c4c4c4 1px none;
+     border-top: #999999 1px none;
+     border-left: #999999 1px none;
+     border-bottom: #c4c4c4 1px none;
+     
+     padding-left: 2px;
+	 padding-right:2px;
+     padding-top: 3px;
+	 padding-bottom:2px;
+	 height:24px;
+	 background-color:#EBEBEB;
+}
+textarea /** input的风格控制，消除系统默认的边框，从而保持统一的Delphi风格。 */
+{
+     font-family: SimSun;
+     font-size: 12px;
+     border-right: #c4c4c4 1px none;
+     border-top: #999999 1px none;
+     border-left: #999999 1px none;
+     border-bottom: #c4c4c4 1px none;
+
+     padding-left: 2px;
+	 padding-right:2px;
+     padding-top: 3px;
+	 padding-bottom:2px;
+	 background-color:#EBEBEB;
+	 	 
+}
+.myinput /** input的风格控制，消除系统默认的边框，从而保持统一的Delphi风格。 */
+{
+     font-family: SimSun;
+     font-size: 12px;
+     border-right: #c4c4c4 1px groove;
+     border-top: #999999 1px groove;
+     border-left: #999999 1px groove;
+     border-bottom: #c4c4c4 1px groove;
+     
+     padding-left: 2px;
+	 padding-right:2px;
+     padding-top: 3px;
+	 padding-bottom:2px;
+	 height:24px;
+	 background-color:#EBEBEB;
+}
+.mybutton {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	FONT-SIZE: 12px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px 0px 0px 10px; 
+	PADDING-TOP: 0px; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif; 
+	TEXT-ALIGN: left
+}
+
+#btn1 {
+	BACKGROUND: url(163_index_imgs_6.gif) no-repeat
+}
+#btn2 {
+	BACKGROUND: url(163_index_imgs_6.gif) no-repeat
+}
+#btn3 {
+	BACKGROUND: url(163_index_imgs_6.gif) no-repeat
+}
+
+#btn1-border {
+	BORDER-RIGHT: #d2e1ee 1px solid; BORDER-TOP: #d2e1ee 1px solid; FLOAT: left; MARGIN-LEFT: 4px; BORDER-LEFT: #d2e1ee 1px solid; WIDTH: 66px; BORDER-BOTTOM: #d2e1ee 1px solid; HEIGHT: 23px
+}
+#btn2-border {
+	BORDER-RIGHT: #d2e1ee 1px solid; BORDER-TOP: #d2e1ee 1px solid; FLOAT: left; MARGIN-LEFT: 4px; BORDER-LEFT: #d2e1ee 1px solid; WIDTH: 66px; BORDER-BOTTOM: #d2e1ee 1px solid; HEIGHT: 23px
+}
+#btn3-border {
+	BORDER-RIGHT: #d2e1ee 1px solid; BORDER-TOP: #d2e1ee 1px solid; FLOAT: left; MARGIN-LEFT: 4px; BORDER-LEFT: #d2e1ee 1px solid; WIDTH: 66px; BORDER-BOTTOM: #d2e1ee 1px solid; HEIGHT: 23px
+}
+#btn2-border {
+	MARGIN-LEFT: 24px
+}
+#btn3-border {
+	FLOAT: none; MARGIN: 0px
+}
+#btn1 {
+	BORDER-TOP-WIDTH: 0px; BACKGROUND-POSITION: -14px -195px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 0px; WIDTH: 66px; CURSOR: pointer; COLOR: #666; LINE-HEIGHT: 23px; HEIGHT: 23px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+#btn2 {
+	BORDER-TOP-WIDTH: 0px; BACKGROUND-POSITION: -14px -195px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 0px; WIDTH: 66px; CURSOR: pointer; COLOR: #666; LINE-HEIGHT: 23px; HEIGHT: 23px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+#btn3 {
+	BORDER-TOP-WIDTH: 0px; BACKGROUND-POSITION: -14px -195px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 0px; WIDTH: 66px; CURSOR: pointer; COLOR: #666; LINE-HEIGHT: 23px; HEIGHT: 23px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+#btn2 {
+	BACKGROUND-POSITION: -82px -195px
+}
+#btn3 {
+	BACKGROUND-POSITION: -14px -221px; FONT-WEIGHT: bolder; FONT-SIZE: 12px; WIDTH: 118px; HEIGHT: 31px
+}
+.buttonspan {
+	margin:0 -9px 0 -9px;padding:0 5px;height:20px;font:normal 12px/24px 宋体;color:#00F;border:0px solid black;
+}
+*/
+
+.analyzetitle {
+	background-color:#EBEBEB;
+	text-align:center;
+}
+.cmdatatabledata {
+	
+}
+.cmdatatabledataon {
+	background-color:#EBEBEB;
+}
+.cmsrchtext {
+	width:120px;
+}
+.cmformtext {
+	width:200px;
+}
+.cmsrchtextarea {
+	width:120px;
+}
+.cmformtextarea {
+	width:444px;
+}
+.cmsrchselect {
+	width:120px;
+}
+.cmformselect {
+	width:200px;
+}
+.cmsrchpopuptext {
+	width:120px;
+}
+.cmsrchpopupbutton {
+
+}
+.cmformpopuptext {
+	width:180px;
+}
+.cmformpopupbutton {
+	
+}
+.cmsrchdate {
+	width:120px;
+}
+.cmformdate {
+	width:200px;
+}
+.cmsrchpopupbutton {
+	background-color:#D4D0C8;
+}
+.cmformpopupbutton{
+	background-color:#D4D0C8;
+}
+.zfjcdiv {
+	text-indent:24px;
+}

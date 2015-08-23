@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!-- 指定request 和response中的编码方式 相当与request.setCharacterEncoding("utf-8") 
+		和response.setCharacterEncoding("utf-8") -->
+	<constant name="struts.i18n.encoding" value="utf-8" />
+	<!-- 开发模式下使用,这样可以打印出更详细的错误信息 -->
+	<constant name="struts.devMode" value="false" />
+	<!-- 当struts.xml改动后，是否重新加载。默认值为false(生产环境下使用),开发阶段最好打开  --> 
+    <constant name="struts.configuration.xml.reload" value="true"/> 
+	<constant name="struts.serve.static.browserCache" value="false" />
+	<!-- 指定允许上传的文件最大字节数,默认值是2097152(2M),使用struts常量扩大默认上传文件大小 -->
+	 <constant name="struts.multipart.maxSize" value="104857600"></constant>   
+	<!-- 全局配置 -->
+	<package name="struts-filter" extends="json-default" abstract="true"> 
+	
+	    <!--<interceptors>
+	          自定义拦截器     
+            <interceptor name="sessionout"  
+             class="UI.util.Interceptor.CheckQYLoginInterceptor"></interceptor>  
+              拦截器栈       
+            <interceptor-stack name="mydefault">           
+                <interceptor-ref name="defaultStack" />    
+                <interceptor-ref name="sessionout"/> 
+            </interceptor-stack>  
+        </interceptors>
+          默认拦截器       
+        <default-interceptor-ref name="mydefault" />
+        
+        --><!-- 定义全局Result -->  
+             <global-results>
+        
+		    	 <!-- grid查询 -->
+			  	 <result name="FINDLIST" type="json"><param name="root">pageBean</param></result>
+			     <!-- 操作状态 -->	  
+			  	 <result name="RETMESSAGE" type="json"><param name="root">messageBean</param></result>
+			  	 <!-- COLUMN -->	    
+			  	 <result name="TABLECOLUMN" type="json"><param name="root">columnList</param></result>
+	  	  		 <!-- TREE -->	    
+	  	  		 <result name="TREELIST" type="json"><param name="root">treeList</param></result> 
+	  	  		 
+	  	  		 <!-- session过期跳转至提示页面 -->  
+                 <result name="TIME_OUT" type="dispatcher">/error/error400.jsp</result>  
+		    </global-results>
+		</package>
+  
+ 
+</struts>   

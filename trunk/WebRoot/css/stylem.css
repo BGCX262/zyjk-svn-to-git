@@ -1,0 +1,174 @@
+@charset "gb2312";
+table,div,h1,h2,h3,h4,h5,h6,ol,dl,li,dt,dd,p,blockquote,pre,form,fieldset,ul,li{margin:0px auto;padding:0px;}
+
+
+/****************** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ *****************/
+
+body  {
+	font-size: 12px;
+	background-color: #ffffff;
+	background: url(../images/zyjk/bg_001.gif) center top repeat-x;
+	margin:0 auto;
+	text-align:left;
+	}
+
+.login {
+	BACKGROUND-IMAGE: url(../images/zyjk/login_bg.jpg); PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-LEFT: 20px; WIDTH: 210px; PADDING-RIGHT: 10px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; text-align:left; HEIGHT: 247px; PADDING-TOP: 0px
+}
+.login H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 20px; WIDTH: 202px; PADDING-RIGHT: 10px; FONT-FAMILY: Ó×Ô²; FLOAT: left; HEIGHT: 30px; COLOR: #ba0000; FONT-SIZE: 18px; FONT-WEIGHT: bold; PADDING-TOP: 16px
+}
+.login H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 222px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 25px; COLOR: #044372; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 10px
+}
+.login H2 A {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.login H2 IMG {
+	WIDTH: 70px; HEIGHT: 23px; MARGIN-LEFT: 5px; VERTICAL-ALIGN: middle
+}
+.login H3 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 70px; WIDTH: 162px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 27px; COLOR: #1472b5; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 5px
+}
+.input {
+	WIDTH: 125px; HEIGHT: 18px; VERTICAL-ALIGN: middle
+}
+.login H6 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 19px; MARGIN: 0px; PADDING-LEFT: 5px; WIDTH: 227px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 222px; COLOR: #000000; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.login H6 A {
+	COLOR: #1c548a; TEXT-DECORATION: underline
+}
+.login H6 SPAN {
+	COLOR: #0f6cc3; FONT-WEIGHT: bold
+}
+
+a:link,a:visited { color:#333333;font-size:12px;text-decoration: none;}
+a:hover{ color:#3333333; text-decoration:underline}
+a.bold:link,a.bold:visited { color:#333333;font-size:12px;text-decoration: none;font-weight: bold;}
+a.bold:hover{ color:#ff3300;}
+a.white:link,a.white:visited { color:#fff;font-size:12px;text-decoration: none;}
+a.white:hover{ color:#fff;}
+a.gray:link,a.gray:visited { color:#333;font-size:12px;text-decoration: none;}
+a.gray:hover{ color:#666;}
+a.red:link,a.red:visited { color:#600;font-size:12px;text-decoration: none;font-weight: bold;}
+a.red:hover{ color:#f00;}
+
+.link1 { color:#ffffff; text-decoration:none;}
+.link1 a:link,.link1 a:visited  {color:#ffffff; text-decoration: none}
+.link1 a:hover,.link1 a:active  {color:#ffffff; text-decoration: none}
+/* ---------- header ---------- */
+.head{ width:1000px; margin: 0 auto; background:#ffffff;}
+.box1{ width:980px; height:32px; margin:0 auto; background:url(../images/zyjk/header_002.gif) repeat-x; line-height:32px; text-align:left; padding-left:20px; color:#ffffff;}
+/* ---------- ²Ëµ¥ ---------- */
+.menu_navcc{width:980px; margin:0 auto;}
+.menu_nav{width:980px;height:50px;}
+.menu_nav .nav_content{ width:945px; margin: 0 auto;}
+.menu_nav .nav_content li{width:85px;height:40px; padding-top:10px; padding-top:5px\9;float:left;text-align:center;font-size:12px; list-style:none;}
+
+.menu_nav .nav_content li a{color:#ffffff;width:85px;height:50px;display:block;}
+.menu_nav .nav_content li a .red{color:#b10808;width:85px;height:50px;display:block;}
+.menu_nav .nav_content li a .red:hover{text-decoration:none;}
+.menu_nav .nav_content li.current{}
+.menu_nav .nav_content li.current a,.menu_nav .nav_content li a:hover{width:85px;height:35px;background:url(../images/zyjk/menu_001.gif) no-repeat center bottom;display:block;color:#ffffff;}
+.menu_nav .nav_content li a:hover{background:url(../images/zyjk/menu_001.gif) no-repeat center;text-decoration:none;}
+
+
+.main{ width:1000px; margin:0px auto; background:#ffffff;}
+/* ---------- ×ó±ß ---------- */
+.main_left{ float:left; width:730px; margin:10px; _margin:10px 5px;}
+.main_right{ float:right; width:240px; margin:10px 10px 0px 0px; _margin:10px 5px 0px 0px;}
+
+.box2{ width:728px; border:1px solid #91b5dc;}
+.box3{ width:724px; background:url(../images/zyjk/top_002.gif) repeat-x;}
+.box4{ width:730px; margin-top:10px;}
+.box5{ width:358px; height:165px;border:1px solid #91b5dc; float:left}
+.box6{ width:358px; height:165px;border:1px solid #91b5dc; float:right}
+.box7{ width:354px; background:url(../images/zyjk/top_002.gif) repeat-x;}
+.box8{ width:238px; border:1px solid #91b5dc; margin-bottom:10px;}
+.box9{ width:234px; background:url(../images/zyjk/top_002.gif) repeat-x;}
+.box10{ width:200px; margin:50px auto 44px;}
+
+
+.img1{ float:left; width:300px; margin:10px;_margin:10px 5px;}
+.img2{ width:240px; margin:10px auto;}
+.img3{ width:1000px; text-align:center;}
+.img4{ width:980px; text-align:center; margin:5px auto;}
+
+.text1{ width:400px; float:right; margin:6px 0px 10px 0px; _margin:6px 0px 10px 0px;}
+.text2 { width:320px; padding-left:10px; background:url(../images/zyjk/top_016.gif) left no-repeat; text-align:left; height:20px; line-height:20px; float:left; font-size:12px;}
+.text3{ width:60px; float: right; text-align:left; height:20px; line-height:20px; font-size:12px;}
+
+.text4{ width:340px; float:right; margin:6px 0px;}
+.text5 { width:265px; padding-left:10px; background:url(../images/zyjk/top_016.gif) left no-repeat; text-align:left; height:20px; line-height:20px; float:left;}
+.text6{ width:50px; float: left; text-align:left; height:20px; line-height:20px; font-size:12px;white-space:nowrap;}
+.text7{ width:340px; float:right; margin:7px 0px;}
+
+/*--.bx_wrap {
+	margin-left: 10px;
+}
+.examples_body .bx_wrap ul img {
+	border:none;
+}
+.bx_wrap a.prev {
+	width: 9px;
+	height: 178px;
+	float:left;
+	outline-style: none;
+	outline-width: 0;
+	position: absolute;
+	text-indent: -9999px;
+	background: url(../images/zyjk/top_025.gif) no-repeat right;
+	left: 1px;
+}
+.bx_wrap a.prev:hover {
+	background: url(../images/zyjk/top_025.gif) no-repeat left;
+}
+.bx_wrap a.next {
+	width: 9px;
+	height: 178px;
+	outline-style: none;
+	float:right;
+	outline-width: 0;
+	position: absolute;
+	text-indent: -9999px;
+	background: url(../images/zyjk/top_026.gif) no-repeat left;
+	left: 719px;
+	top: 0px;
+}
+.bx_wrap a.next:hover {
+	background: url(../images/zyjk/top_026.gif) no-repeat right;
+}--/
+
+/* ---------- Í¨ÓÃÊôÐÔ---------- */
+.lin{ border-bottom: 1px #979797 dashed;}
+.lef{ float:left}
+.rig{ float:right}
+.mar5{ margin-top:5px;}
+.mar10{ margin-top:10px;}
+.mar17{ margin-top:17px;}
+.mar_r_5{ margin-right:5px;}
+.mar_l_10{ margin-right:10px;}
+
+/* ---------- footer ---------- */
+.fot{ width:1000px; text-align:center; margin-top:10px;}
+
+.clear {
+	display:block;
+	clear:both;
+	font-size: 0px;
+}
+.box3:after,.main1:after,{
+	content:".";
+	height:0;
+	display:block;
+	visibility:hidden;
+	clear:both;
+}
+
+
+/* ---------- END ---------- 
+#menu {
+	background-image:url(../img/new/menu_b1.gif);
+	background-repeat:repeat-x;
+	background-color:#000000;}*/

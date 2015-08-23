@@ -1,0 +1,20 @@
+<?xml version="1.0"  encoding="gb2312"  standalone="yes"?>
+<config>
+
+<distsoft>softSign</distsoft>
+<dataAccess>
+	<defualtDB>mysqlbea</defualtDB>
+	<!-- 9.8 -->	
+	<!-- 
+	 <dataBase ID="mysqlbea" Type="mysql" DBPool="mysqlpool" DBDriver="com.mysql.jdbc.Driver" ConnStr="jdbc:mysql://localhost:3306/zpf?autoReconnect=true" user="root" passwd ="root"></dataBase>
+	  <dataBase ID="mssqlbea" Type="sqlserver" DBDriver="com.microsoft.sqlserver.jdbc.SQLServerDriver" ConnStr="jdbc:sqlserver://localhost:1433;databaseName=zpf" user="sa" passwd ="sa123"></dataBase>
+	 <dataBase ID="mssqlbea" Type="sqlserver" DBDriver="com.microsoft.sqlserver.jdbc.SQLServerDriver" ConnStr="jdbc:sqlserver://localhost:1433;databaseName=zywhfz" user="sa" passwd ="sa123"></dataBase>
+	  <dataBase ID="mssqlbea" Type="sqlserver" DBDriver="com.microsoft.sqlserver.jdbc.SQLServerDriver" ConnStr="jdbc:sqlserver://192.168.9.8:1444;databaseName=zywhfz" user="sa" passwd ="yjzh"></dataBase>
+	  
+	 	
+	   -->
+	  	 
+	 <dataBase ID="mssqlbea" Type="sqlserver" DBDriver="com.microsoft.sqlserver.jdbc.SQLServerDriver" ConnStr="jdbc:sqlserver://localhost:1444;databaseName=zywhfz" user="sa" passwd ="sa123"></dataBase>
+	  
+</dataAccess>
+</config>

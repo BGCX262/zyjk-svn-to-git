@@ -1,0 +1,159 @@
+/*********************************************************************
+ *<p>处理内容：平台  CSS STYLE</p>
+ *<p>Copyright: (c) 2013</p>
+ * @author 方立文 改版履历<br>
+ * @version Rev - Date ------- Name ---------- Note<br>
+ * @------- 1.0 --2013.3.2---- 方立文 --------- 新规作成<br>
+ ***********************************************************************/
+
+.form-l-table-edit{
+    vertical-align: center;
+	align:middle;
+}
+.l-table-edit {
+	vertical-align: center;
+	align:middle;
+	
+}
+.l-table-edit-td {
+	padding: 4px;
+}
+.l-table-edit-td-right {
+	font-size:12px;
+	padding: 4px;
+	text-align: left;
+	background-color:#eaf2ff;
+}
+.l-table-edit-td-left {
+	font-size:12px;
+	padding: 4px;
+	text-align: left;
+    
+}
+.l-research-area-input{
+    border:1px solid #AECAF0;
+    height:20px; 
+    line-height:20px;
+    width:130px; 
+    background:white;
+ } 
+.l-button-submit,.l-button-test {
+	width: 80px;
+	float: left;
+	margin-left: 10px;
+	padding-bottom: 2px;
+	font-size:12px;
+}
+
+.l-button-edit {
+	width: 80px;
+	float: right;
+	margin-left: 10px;
+	padding-bottom: 2px;
+	font-size:12px;
+}
+
+
+
+/*********************************************************************
+ * GRID CSS STYLE
+ *********************************************************************/
+.bodystyle{
+	padding:10px; 
+}
+.table_search_layout_1 {
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+/**grid样式*/
+.div_grid {
+	PADDING: 0px;
+	MARGIN: 4px;
+	width: 99%;
+}
+
+/*********************************************************************
+ * FORM CSS STYLE
+ ***********************************************************************/
+.formbody{
+	font-size:12px;
+	padding:3px;
+}
+
+.menubody{
+	font-size:12px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 0px;
+}
+
+.td_message {
+	width: 12px;
+}
+
+
+.l-verify-tip {
+	left: 230px;
+	top: 120px;
+}
+/* 一条线 导航线 */
+.navline {
+	height: 1px;
+	line-height: 2px;
+	width: 100%;;
+	border-bottom: 1px solid #f5f5f5;
+	background-color: #D9D9D9;;
+	width: 97%;
+	margin-bottom:4px; 
+	margin-top:4px;
+
+}
+.div_form{
+	padding: 10px;
+	font-size: 12px;
+}
+
+.table-edit td
+{
+	height: 35px;
+
+}
+/*Form 表单button区*/
+.button_table
+{
+	margin: auto;
+   text-align:center;
+   font-size: 12px;
+}
+
+/*********************************************************************
+ * treemenu CSS STYLE
+ ***********************************************************************/
+.treemenubody{
+	 padding:5px;
+	 margin:0; 
+	 padding-bottom:15px;
+	 }
+	 
+#layout{
+	  width:100%;
+	  margin:0; 
+	  padding:0;  
+	  }
+	    
+.l-page-top{
+	 height:80px;
+	 background:#f8f8f8;
+	 margin-bottom:3px;
+	 }
+.lay-center-out{
+     PADDING-BOTTOM: 0px; 
+     MARGIN: 4px; 
+     PADDING-LEFT: 0px; 
+     PADDING-RIGHT: 4px; 
+     PADDING-TOP: 0px
+
+}	 
